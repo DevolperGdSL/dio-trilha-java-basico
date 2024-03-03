@@ -13,5 +13,8 @@ public class Operadores {
         int b = 5;
         boolean resultado = a==b ? true: false;
         System.out.println(resultado);
+        String nomeUm = "name";
+        String nomeDois = new String("name");
+        System.out.println(nomeUm.equals(nomeDois));
     }
 }
