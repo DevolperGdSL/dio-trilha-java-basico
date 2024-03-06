@@ -12,10 +12,10 @@ public class ExemploDoWhile {
             System.out.println(1 + " - Multiplicar");
             System.out.println(2 + " - Subtrair");
             System.out.println(3 + " - Somar");
-            System.out.println(4 + " - Reduzir");
+            System.out.println(4 + " - Dividir");
             escolha = scanner.nextInt();
             switch (escolha) {
-                case 0: 
+                case 0:
                     System.out.println("Saindo..");
                     break;
                 case 1:
@@ -30,13 +30,13 @@ public class ExemploDoWhile {
                     b = scanner.nextInt();
                     System.out.println("Resultado: " + Subtrair(a, b));
                     break;
-                case 3: 
+                case 3:
                     System.out.println("Digite dois numeros: ");
                     a = scanner.nextInt();
                     b = scanner.nextInt();
                     System.out.println("Resultado: " + Somar(a, b));
                     break;
-                case 4: 
+                case 4:
                     System.out.println("Digite dois numeros: ");
                     a = scanner.nextInt();
                     b = scanner.nextInt();
